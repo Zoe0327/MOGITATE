@@ -1,0 +1,197 @@
+.product__catalog {
+    width: 100%;
+    max-width: 1512px;
+    margin: 0 auto;
+    padding: 70px 0;
+    background: #F8F8F8;
+    box-sizing: border-box;
+}
+.product__catalog-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 50px;
+    padding: 0 40px;
+    box-sizing: border-box;
+}
+.product__catalog-title h2 {
+    color: #333333;
+    font-size: 32px;
+    margin: 0;
+}
+.product__catalog-add-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #FFA929;
+    color: #4B4B4B;
+    text-decoration: none;
+    border-radius: 3px;
+    font-size: 16px;
+    text-align: center;
+    cursor: pointer;
+}
+.product__catalog-inner {
+    margin: 10px;
+    padding: 0 40px;
+    box-sizing: border-box;
+}
+.product__search {
+    display: flex;
+    gap: 40px;
+}
+.search__class {
+    flex-shrink: 0;
+    width: 240px;
+}
+.search__name {
+    margin-bottom: 20px;
+}
+.search__input--text input{
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #E0DFDE;
+    border-radius: 25px;
+    box-sizing: border-box;
+    font-size: 14px;
+}
+.search__input--button {
+    margin-top: 10px;
+}
+.search__button-submit{
+    width: 100%;
+    padding: 10px;
+    background-color: #F5C800;
+    color: #4B4B4B;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+.search__table {
+margin-top: 20px;
+}
+.search__table p{
+    font-size: 16px;
+    color: #333333;
+    margin-bottom: 5px;
+}
+.search__item--select {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #E0DFDE;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-size: 14px;
+    color: #333;
+}
+.search__item--select:invalid {
+    color: #E0DFDE;
+}
+.sort-tags {
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.sort-tag {
+    display: inline-block;
+    background-color: #fff;
+    color: #4B4B4B;
+    padding: 5px 10px;
+    border:1px solid #F5C800;
+    border-radius: 20px;
+    font-size: 14px;
+}
+.sort-tag .tag-close {
+    color: #F5C800;
+    text-decoration: none;
+    margin-left: 8px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.product-link{
+    display: block;
+    text-decoration: none;
+    color: inherit;
+}
+.search__list {
+    flex-grow: 1;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+.product-link .search__list--display {
+    background: #fff;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+.product-link:hover .search__list--display {
+    transform: translateY(-5px);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+.search__list--display-img img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    display: block;
+}
+
+.search__list--display-item {
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.search__list--display-item .item-name {
+    font-size: 18px;
+    color: #333;
+    margin: 0 0 5px;
+    font-weight: bold;
+}
+
+.search__list--display-item .item-price {
+    font-size: 16px;
+    color: #FFA929;
+    margin: 0;
+    font-weight: bold;
+}
+.pagination {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+.pagination nav .page-item {
+    list-style: none;
+    margin: 0 5px;
+}
+.pagination .page-link {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    background-color: #f0f0f0;
+    color: #4b4b4b;
+    text-decoration: none;
+    border: none;
+    transition: background-color 0.2s ease;
+}
+.pagination .page-link:hover {
+    background-color: #e0e0e0;
+}
+.pagination .page-item:first-child .page-link,
+.pagination .page-item:last-child .page-link {
+    border-radius: 50%;
+
+}
+.pagination .page-item.active .page-link {
+    background-color: #FFA929;
+    color: white;
+}
+.pagination .page-item.disabled .page-link {
+    background-color: transparent;
+    color: #ccc;
+    cursor: default;
+}

@@ -1,0 +1,201 @@
+
+body {
+    background-color: #F8F8F8;
+    font-family: sans-serif;
+}
+
+.detail__form {
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 32px;
+}
+
+.form__header {
+    display: flex;
+    align-items: center;
+    font-size: 1.1rem;
+    font-weight: bold;
+    margin-bottom: 24px;
+}
+
+.product__list {
+    color: #0085FF;
+    margin-right: 8px;
+}
+
+.product__name {
+    color: #4B4B4B;
+}
+
+.form__detail {
+    display: flex;
+    gap: 40px;
+    margin-bottom: 24px;
+    flex-wrap: wrap;
+}
+
+.detail__img {
+    flex: 1 1 300px;
+    text-align: left;
+}
+
+.detail__img-img img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.custom-file-upload {
+    display: inline-block;
+    padding: 10px 20px;
+    margin-top: 16px;
+    cursor: pointer;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    font-weight: bold;
+    color: #666;
+    transition: background-color 0.3s;
+}
+
+.custom-file-upload:hover {
+    background-color: #e0e0e0;
+}
+
+.custom-file-upload input[type="file"] {
+    display: none;
+}
+
+.form__error {
+    color: #e53e3e;
+    font-size: 0.875rem;
+    margin-top: 8px;
+}
+
+.detail__text {
+    flex: 2 1 400px;
+}
+
+.detail__name,
+.detail__price,
+.detail__season {
+    margin-bottom: 20px;
+}
+
+.detail__name-title p,
+.detail__price-title p,
+.detail__season-title p {
+    font-weight: bold;
+    color: #555;
+    margin-bottom: 8px;
+}
+
+.detail__name-input input,
+.detail__price-input input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #E0DFDE;
+    border-radius: 5px;
+    box-sizing: border-box;
+
+}
+
+.detail__price-input input {
+    text-align: left;
+}
+
+.detail__season-checkbox label {
+    display: inline-block;
+    margin-right: 16px;
+    cursor: pointer;
+}
+
+.detail__season-checkbox input[type="checkbox"] {
+    margin-right: 8px;
+    border-radius: 50%;
+    /* チェックボックスを丸くする */
+}
+
+.detail__textarea {
+    margin-bottom: 24px;
+}
+
+.detail__textarea-title {
+    font-weight: bold;
+    font-size: 16px;
+    color: #4B4B4B;
+    margin-bottom: 8px;
+}
+
+.detail__textarea-text textarea {
+    width: 100%;
+    height: 150px;
+    padding: 10px;
+    border: 1px solid #E0DFDE;
+    border-radius: 5px;
+    box-sizing: border-box;
+    resize: vertical;
+    color: #4B4B4B;
+    font-size: 14px;
+}
+
+
+.detail__btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    gap: 16px;
+}
+
+.btn__center {
+    display: flex;
+    gap: 16px;
+}
+.btn__return-wrapper,
+.btn__update-wrapper {
+    padding: 12px 80px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+}
+
+.btn__return-wrapper .btn__back {
+    background-color: #E0DFDE;
+    color: #4B4B4B;
+    display: block;
+    padding: 12px 0;
+    border-radius: 5px;
+    width: 100%;
+}
+.btn__update-wrapper .btn__update {
+    background-color: #F5C800;
+    color: #4B4B4B;
+    padding: 12px 80px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+.btn__delete {
+    position: absolute;
+    right: 0;
+
+}
+
+.btn__delete-icon {
+    text-align: right;
+    background-color: #fff;
+    color: #FD0707;
+    border: none;
+    border-radius: 5px;
+    padding: 20px 16px;
+    cursor: pointer;
+    font-size: 18px;
+    transition: background-color 0.3s;
+}

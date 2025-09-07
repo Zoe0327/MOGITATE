@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Charm:wght@500;700&display=swap');
+.header {
+    background: #fff;
+}
+.header__inner {
+    padding: 20px 15px;
+}
+.header__logo {
+    color: #F5C800;
+    font-size: 30px;
+    text-decoration: none;
+    font-family: 'Charm', cursive;
+    font-weight: 500;
+}
