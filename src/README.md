@@ -2,7 +2,7 @@
 
 ## 環境構築
 **Dockerビルド**
-1. `git clone <リポジトリURL>`
+1. `git clone git@github.com:Zoe0327/MOGITATE.git`
 2. DockerDesktopを起動
 3. `docker-compose up -d --build`
 
