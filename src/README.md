@@ -41,7 +41,7 @@ php artisan storage:link
 - MySQL8.0.26
 
 ## ER図
-![alt](src/mogitate.png)
+![alt](mogitate.png)
 
 ## URL
 - 開発環境：http://localhost/products
