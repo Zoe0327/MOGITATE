@@ -18,6 +18,8 @@
   DB_DATABASE=laravel_db
   DB_USERNAME=laravel_user
   DB_PASSWORD=laravel_pass
+  ※ DB_HOST は Docker Compose の MySQL サービス名に合わせて設定してください。
+   デフォルトでは mysql ですが、環境によって自動生成されるコンテナ名（例：mogitate-mysql-1）になることがあります。
 
 5. アプリケーションキーの作成
 --bash
